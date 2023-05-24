@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(27, 26, 26);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(235, 206, 206);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 2em;
+}
+
+.print-btn {
+  height: 4vh;
+  width: 15vw;
+  margin-top: 1em;
+  float: right;
+  font-size: 1.2em;
+  font-weight: bold;
+}

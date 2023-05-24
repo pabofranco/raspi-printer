@@ -1,0 +1,17 @@
+{
+  "name": "rasp-printer-backend",
+  "version": "1.0.0",
+  "description": "backend API for rasp-printer",
+  "main": "./src/server.js",
+  "bin": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "Pedro Franco",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
